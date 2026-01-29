@@ -1,89 +1,85 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+PRD – Aplicativo de Finanças para Crianças ("Cofrinho Mágico")
 
-## ✨ O que é Vibe Coding
+Visão Geral
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+    Objetivo
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+Ensinar crianças de 6 a 12 anos a organizar suas mesadas e valores recebidos, usando linguagem natural simples, experiência lúdica e gamificação. O app orienta como "Guardar, Gastar, Doar e Investir" de forma responsável, com simulações e conteúdos educativos.
 
-## 🎯 Desafio
+    Público-Alvo
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+Crianças de 6 a 12 anos. Secundário: responsáveis (pais/guardião) para acompanhamento e controles.
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+    Problema e Oportunidade
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+Crianças recebem dinheiro sem referência prática. Falta um aplicativo acessível e divertido que ensine hábitos financeiros saudáveis, com recursos de metas, tópicos educativos e acompanhamento dos responsáveis.
 
-## 🪄 Etapas do Desafio
+    Princípios de Produto
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+• Lúdico e explicativo • Simples e seguro • Inclusivo e acessível • Privacidade em primeiro lugar (LGPD) • Sem transações reais – apenas simulações
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+    Escopo (MVP)
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+A. Onboarding com avatar e mascote B. Painel de mesada (saldo, entradas) C. 4 categorias: Guardar, Gastar, Doar, Investir D. Metas com barra de progresso E. Gamificação (pontos, medalhas) F. Conteúdos educativos em micro lições G. Relatórios simples (pizza e barras) H. Controles parentais (PIN, limites) I. Notificações amigáveis
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+    Não-Escopo (MVP)
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+• Integração bancária real • Pagamentos ou compras dentro do app • Chat aberto sem moderação • Conteúdos não verificados para crianças
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+    Requisitos Funcionais
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+7.1 Cadastro simples: nome, idade, avatar 7.2 Entrada de recursos: mesada, presentes, recursos extras 7.3 Regras sugeridas de divisão (ex.: 40% Guardar, 30% Gastar, 20% Investir, 10% Doar – ajustável) 7.4 Metas: criação, edição, conclusão e celebração 7.5 Gamificação: pontos, medalhas, níveis 7.6 Educação: histórias, quizzes, desafios curtos 7.7 Relatórios: visão semanal/mensal por categoria 7.8 Controles parentais: PIN, alertas, limites de gasto simulado 7.9 Notificações: lembretes de metas e dicas do mascote
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
-```
+    Requisitos de UX/UI
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+• Paleta vibrante, ícones grandes, textos curtos • Personagem mascote mediando interações em linguagem natural • Navegação por cartões e botões grandes • Acessibilidade: contraste, fontes legíveis, descrições alternativas • Microcopys amigáveis (ex.: "Vamos juntar?", "Qual seu próximo sonho?")
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+    Requisitos Técnicos e Plataforma
 
-### 2. Explorando o Lovable na Prática
+• Mobile (Android e iOS) • Desenvolvido com Loveble (no-code/low-code) • Persistência local com sincronização em nuvem (quando disponível) • Suporte offline básico • Telemetria anônima para métricas de uso
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+    Privacidade, Segurança e Conformidade
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+• LGPD: consentimento dos responsáveis, minimização e finalidade de dados • ECA: conteúdo apropriado a crianças • Sem coleta de dados sensíveis • Criptografia em repouso e em trânsito (quando sincronizado) • Controles parentais obrigatórios e PIN para configurações
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+    Métricas de Sucesso
 
-### 3. Entregando o Desafio na DIO
+• Engajamento diário/semanal • Conclusão de metas • Participação em conteúdos educativos • Satisfação dos responsáveis (NPS) • Retenção em 30/60/90 dias
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+    Roadmap
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+Fase 1 (MVP – 6 semanas): Painel, metas, 4 categorias, mascote e conteúdos iniciais Fase 2 (8–12 semanas): Gamificação avançada, relatórios, parental analytics Fase 3 (12–20 semanas): Personalização, multilíngue, biblioteca ampliada
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+    Fluxos Principais
 
-## 💬 Conclusão
+• Onboarding: escolher avatar → apresentar mascote → primeira entrada de mesada → sugerir divisão → criar meta • Registrar entrada: valor R$ → origem → sugestão de divisão → confirmar • Mover dinheiro: escolher categoria → valor → confirmar → feedback do mascote • Criar meta: nome, imagem, valor alvo, prazo → barra de progresso
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+    Conteúdo Educativo (exemplos)
+
+• História: "A turma do Cofrinho" explica a importância de guardar • Quiz: "Qual a melhor escolha?" • Desafio semanal: junte R$5 e ganhe medalha de disciplina
+
+    Requisitos de Acessibilidade
+
+• Texto em linguagem simples • Botões grandes e toque fácil • Descrições de imagens para leitores de tela • Modo alto contraste • Áudio explicativo opcional
+
+    Riscos e Mitigações
+
+• Baixa adesão: reforçar gamificação e mascote • Confusão de conceitos: micro lições e exemplos guiados • Privacidade: controles parentais e minimização de dados
+
+    Dependências
+
+• Biblioteca gráfica/ilustrações infantis • Base de conteúdo educativo • Configuração do Loveble para publicação e analytics
+
+    Glossário
+
+• Guardar: poupar • Gastar: compras • Doar: solidariedade • Investir: simulação de crescimento ao longo do tempo (sem risco real)
+
+Conceito do App – “Cofrinho Mágico”
+
+O Cofrinho Mágico é um aplicativo infantil que transforma a gestão de dinheiro – mesadas, presentes e pequenas economias – em uma aventura divertida, educativa e gamificada, ajudando crianças a aprenderem desde cedo a guardar, gastar, doar e investir com consciência e responsabilidade.
+
+Ele funciona como um cofrinho digital inteligente, guiado por um mascote amigável que explica conceitos financeiros em linguagem simples, natural e adequada à faixa etária. A experiência combina histórias, desafios, recompensas e metas, criando um ambiente seguro e encantador onde a criança aprende fazendo.
+
+Reflexão do Processo:
+Achei fantástico poder criar um APP funcional de forma tão simples, com IA!
